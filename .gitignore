@@ -1,0 +1,26 @@
+# Python 生成文件
+__pycache__/
+*.py[cod]
+
+# 虚拟环境
+.venv/
+venv/
+
+# IDE
+.idea/
+.vscode/
+
+# API 密钥、私密配置
+.env
+.env.*
+!.env.example
+
+# 私人聊天记录与截图（也覆盖 chat_roi(1).png 等副本）
+chat_roi*.png
+chat_history*.txt
+screenshots/
+private_data/
+
+# OCR 缓存与日志
+.paddlex/
+*.log

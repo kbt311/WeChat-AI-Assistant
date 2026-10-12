@@ -1,0 +1,8 @@
+# Python 3.11 / Windows；PaddleOCR 3.x API
+PySide6
+mss
+numpy
+opencv-python
+paddleocr>=3,<4
+paddlepaddle>=3,<4
+requests
